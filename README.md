@@ -22,7 +22,7 @@ A rede foi organizada por setores, separando os dispositivos em VLANs diferentes
 
 ## Topologia da Rede
 
-![Topologia da Rede](enterprise-network-packet-tracer/imagens/01-topologia-completa.png)
+![Topologia da Rede](enterprise-network-packet-tracer/imagens/01-topologia-completa.png.jpg)
 
 ---
 
@@ -101,11 +101,11 @@ A rede foi dividida por setores utilizando VLANs. Essa separação melhora a org
 
 ### VLANs da Matriz
 
-![VLANs da Matriz](enterprise-network-packet-tracer/imagens/02-vlans-matriz.png)
+![VLANs da Matriz](enterprise-network-packet-tracer/imagens/02-vlans-matriz.png.jpg)
 
 ### VLANs da Filial
 
-![VLANs da Filial](enterprise-network-packet-tracer/imagens/03-vlans-filial.png)
+![VLANs da Filial](enterprise-network-packet-tracer/imagens/03-vlans-filial.png.jpg)
 
 ---
 
@@ -117,11 +117,11 @@ Os servidores utilizam IP fixo, enquanto os computadores recebem IP automaticame
 
 ### DHCP na Matriz
 
-![DHCP PC Admin](enterprise-network-packet-tracer/imagens/04-dhcp-pc-admin.png)
+![DHCP PC Admin](enterprise-network-packet-tracer/imagens/04-dhcp-pc-admin.png.jpg)
 
 ### DHCP na Filial
 
-![DHCP PC Visitante Filial](enterprise-network-packet-tracer/imagens/05-dhcp-pc-visitante-filial.png)
+![DHCP PC Visitante Filial](enterprise-network-packet-tracer/imagens/05-dhcp-pc-visitante-filial.png.jpg)
 
 ---
 
@@ -143,7 +143,7 @@ empresa.local
 
 Esse nome aponta para o servidor interno, permitindo o acesso ao serviço Web sem precisar digitar diretamente o endereço IP.
 
-![DNS e Web Interno](enterprise-network-packet-tracer/imagens/06-dns-web-empresa-local.png)
+![DNS e Web Interno](enterprise-network-packet-tracer/imagens/06-dns-web-empresa-local.png.png)
 
 ---
 
@@ -182,11 +182,11 @@ Rede: 192.168.20.0/24
 
 ### SSH Permitido para o Setor de TI
 
-![SSH TI Permitido](enterprise-network-packet-tracer/imagens/09-ssh-ti-acesso-permitido.png)
+![SSH TI Permitido](enterprise-network-packet-tracer/imagens/09-ssh-ti-acesso-permitido.png.png)
 
 ### SSH Bloqueado para Visitantes
 
-![SSH Visitante Bloqueado](enterprise-network-packet-tracer/imagens/10-ssh-visitante-bloqueado.png)
+![SSH Visitante Bloqueado](enterprise-network-packet-tracer/imagens/10-ssh-visitante-bloqueado.png.png)
 
 ---
 
@@ -204,11 +204,11 @@ O roteador da matriz realiza NAT/PAT, permitindo que redes internas privadas ace
 
 ### Acesso ao Servidor Externo
 
-![Internet Simulada](enterprise-network-packet-tracer/imagens/11-internet-simulada.png)
+![Internet Simulada](enterprise-network-packet-tracer/imagens/11-internet-simulada.png.png)
 
 ### Tradução NAT/PAT
 
-![NAT Translations](enterprise-network-packet-tracer/imagens/12-nat-translations.png)
+![NAT Translations](enterprise-network-packet-tracer/imagens/12-nat-translations.png.png)
 
 A tradução mostra que um IP interno, como:
 
@@ -262,20 +262,21 @@ enterprise-network-packet-tracer
 │
 └── enterprise-network-packet-tracer
     ├── enterprise-network.pkt
+    ├── README.md.txt
     │
     └── imagens
-        ├── 01-topologia-completa.png
-        ├── 02-vlans-matriz.png
-        ├── 03-vlans-filial.png
-        ├── 04-dhcp-pc-admin.png
-        ├── 05-dhcp-pc-visitante-filial.png
-        ├── 06-dns-web-empresa-local.png
+        ├── 01-topologia-completa.png.jpg
+        ├── 02-vlans-matriz.png.jpg
+        ├── 03-vlans-filial.png.jpg
+        ├── 04-dhcp-pc-admin.png.jpg
+        ├── 05-dhcp-pc-visitante-filial.png.jpg
+        ├── 06-dns-web-empresa-local.png.png
         ├── 07-acl-visitante-matriz-bloqueado.png
         ├── 08-admin-acessa-servidor.png
-        ├── 09-ssh-ti-acesso-permitido.png
-        ├── 10-ssh-visitante-bloqueado.png
-        ├── 11-internet-simulada.png
-        └── 12-nat-translations.png
+        ├── 09-ssh-ti-acesso-permitido.png.png
+        ├── 10-ssh-visitante-bloqueado.png.png
+        ├── 11-internet-simulada.png.png
+        └── 12-nat-translations.png.png
 ```
 
 ---
